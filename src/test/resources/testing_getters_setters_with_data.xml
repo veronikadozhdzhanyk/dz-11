@@ -1,0 +1,40 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GettersAndSettersTests">
+    <test name="ManGettersSettersTests">
+        <classes>
+            <class name="personTests.ManTestsWithData">
+                <methods>
+                    <include name="testGetFirstName"/>
+                    <include name="testGetLastName"/>
+                    <include name="testGetAge"/>
+                    <include name="testGetWeight"/>
+                    <include name="testGetHeight"/>
+                    <include name="testSetFirstName"/>
+                    <include name="testSetLastName"/>
+                    <include name="testSetAge"/>
+                    <include name="testSetWeight"/>
+                    <include name="testSetHeight"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="WomanGettersSettersTests">
+        <classes>
+            <class name="personTests.WomanTestsWithData">
+                <methods>
+                    <include name="testGetFirstName"/>
+                    <include name="testGetLastName"/>
+                    <include name="testGetAge"/>
+                    <include name="testGetWeight"/>
+                    <include name="testGetHeight"/>
+                    <include name="testSetFirstName"/>
+                    <include name="testSetLastName"/>
+                    <include name="testSetAge"/>
+                    <include name="testSetWeight"/>
+                    <include name="testSetHeight"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
